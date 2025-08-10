@@ -1,0 +1,114 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url(image2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #333;
+      line-height: 1.6;
+    }
+    header h1{
+      font-size: 42px;
+    }
+
+    header {
+      background-color:rgba(255, 255, 255, 0.185);
+      color:black;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: black;
+      margin: 0 15px;
+      padding: 0px 10px  0 10px ;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    nav a:hover{
+      background-color:  rgba(245, 222, 179, 0.932);
+      border-radius: 10px 10px 10px 10px;
+    }
+
+    fieldset{
+      border: 5px solid black;
+      border-radius: 0px 20px 20px 20px;
+    }
+    fieldset:hover{
+      transform: scale(1.05);
+      transition-duration:.3s ;
+    }
+    .card:hover{
+      transform: scale(1.1);
+      transition-duration: 0.6s;
+      object-fit: cover;
+      background-color: rgba(76, 104, 97, 0.434);
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 20px;
+      color: black;
+    }
+    p{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    h3{
+      color: saddlebrown;
+    }
+
+    .projects .card {
+      background: rgba(255, 255, 255, 0.795);
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+     .projects .card:hover{
+             background-color: rgba(76, 104, 97, 0.434);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #343a40;
+      color: rgba(129, 114, 96, 0.918);
+    }
+     .contact{
+        margin: 5px;
+     }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #0056b3;
+    }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Arpit Singh Panwar</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+<section id="container">
+  <section id="about" class="section">
+    <br>
+    <h2>About Me</h2>
+    <p>Hi, I'm Arpit, a passionate web developer and Python enthusiast. I'm currently pursuing B.Tech in Information Technology and have done several internships in web development. I aim to become a full stack developer and build meaningful projects that impact society.</p>
+  </section>
+
+  <section id="projects" class="section projects">
+    <fieldset>
+      <legend><h2>Projects</h2></legend>
+
+    <div class="card" id="card1">
+      <h3>Margdarshan (Career Guidance Website)</h3>
+      <p>A platform to guide students in selecting the right career path based on interests and skills.</p>
+    </div>
+
+    <div class="card" id="card2">
+      <h3>Weather App</h3>
+      <p>A JavaScript-based app that fetches live weather data using OpenWeatherMap API.</p>
+    </div>
+
+    <div class="card" id="card3">
+      <h3>Currency Converter</h3>
+      <p>Converts amounts between currencies using real-time exchange rates with a user-friendly interface.</p>
+    </div>
+    </fieldset>
+  </section>
+
+</section>
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form onsubmit="sendMessage(); return false;">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="example@gmail.com" required />
+      <textarea placeholder="Your Message" rows="6" cols="9" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Arpit Singh Panwar | All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
